@@ -16,6 +16,7 @@ class password {
             this.pass += special[Math.floor(Math.random() * special.length)]
             i+=4
         }
+        this.pass = this.pass.substr(0,len)
         return this.pass
     }
 }
